@@ -1,0 +1,21 @@
+{
+  "checkpoint_path": "/home/cxy/isaac_lab/IsaacLab/pointnet2/Pointnet_Pointnet2_pytorch/log/classification/pointnet2_msg_normals/checkpoints/best_model.pth",
+  "output_npz": "/home/cxy/isaac_lab/IsaacLab/cxy_project/objects/hy_objects/hy_object_pointnet2_msg_normals_256.npz",
+  "usd_paths": [
+    "/home/cxy/isaac_lab/IsaacLab/cxy_project/objects/hy_objects/hy_cleaner_bottle/qsim_hy_cleaner_bottle.usd",
+    "/home/cxy/isaac_lab/IsaacLab/cxy_project/objects/hy_objects/hy_spray_bottle/qsim_hy_spray_bottle.usd",
+    "/home/cxy/isaac_lab/IsaacLab/cxy_project/objects/hy_objects/hy_whiteboard_cleaner/qsim_hy_whiteboard_cleaner.usd"
+  ],
+  "num_points": 1024,
+  "normal_channel": true,
+  "scale_xyz": [
+    0.125,
+    0.125,
+    0.125
+  ],
+  "model": "pointnet2_cls_msg",
+  "num_class": 40,
+  "feature_dim": 256,
+  "object_count": 3,
+  "feature_dtype": "float32"
+}
