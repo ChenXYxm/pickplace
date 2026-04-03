@@ -4,7 +4,9 @@
   "usd_paths": [
     "/home/cxy/isaac_lab/IsaacLab/cxy_project/objects/hy_objects/hy_cleaner_bottle/qsim_hy_cleaner_bottle.usd",
     "/home/cxy/isaac_lab/IsaacLab/cxy_project/objects/hy_objects/hy_spray_bottle/qsim_hy_spray_bottle.usd",
-    "/home/cxy/isaac_lab/IsaacLab/cxy_project/objects/hy_objects/hy_whiteboard_cleaner/qsim_hy_whiteboard_cleaner.usd"
+    "/home/cxy/isaac_lab/IsaacLab/cxy_project/objects/hy_objects/hy_whiteboard_cleaner/qsim_hy_whiteboard_cleaner.usd",
+    "/home/cxy/isaac_lab/IsaacLab/cxy_project/objects/hy_objects/hy_lotion_bottle/qsim_hy_lotion_bottle.usd",
+    "/home/cxy/isaac_lab/IsaacLab/cxy_project/objects/hy_objects/hy_lotion/qsim_hy_lotion_1.usd"
   ],
   "num_points": 1024,
   "normal_channel": true,
@@ -16,6 +18,6 @@
   "model": "pointnet2_cls_msg",
   "num_class": 40,
   "feature_dim": 256,
-  "object_count": 3,
+  "object_count": 5,
   "feature_dtype": "float32"
 }
